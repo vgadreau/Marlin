@@ -1,10 +1,14 @@
 /**
  * Marlin 3D Printer Firmware
 <<<<<<< refs/remotes/Marlin/bugfix-2.0.x
+<<<<<<< refs/remotes/Marlin/bugfix-2.0.x
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
 =======
  * Copyright (c) 2019 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
 >>>>>>> Modif initiale
+=======
+ * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+>>>>>>> ok
  *
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
