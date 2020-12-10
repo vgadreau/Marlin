@@ -1,14 +1,6 @@
 /**
  * Marlin 3D Printer Firmware
-<<<<<<< refs/remotes/Marlin/bugfix-2.0.x
-<<<<<<< refs/remotes/Marlin/bugfix-2.0.x
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
-=======
- * Copyright (c) 2019 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
->>>>>>> Modif initiale
-=======
- * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
->>>>>>> ok
  *
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -24,7 +16,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
 #pragma once
@@ -36,7 +28,7 @@
  * and enable CUSTOM_STATUS_SCREEN_IMAGE in Configuration.h.
  *
  * Use the Marlin Bitmap Converter to make your own:
- * http://marlinfw.org/tools/u8glib/converter.html
+ * https://marlinfw.org/tools/u8glib/converter.html
  */
 
 //
@@ -52,7 +44,16 @@ const unsigned char status_logo_bmp[] PROGMEM = {
   B01110001,B00100100,B10010010,B01100111,B11001100,
   B01000001,B00100100,B10011110,B01000000,B00000010,
   B01001001,B00100100,B10010000,B01000000,B00010010,
-  B11111011,B10110011,B11001110,B11100000,B00001100
+  B11111011,B10110011,B11001110,B11100000,B00001100,
+  B00000000,B00000000,B00000000,B00000000,B00000000,
+  B00000000,B00000000,B00000000,B00000000,B00000000,
+  B00000000,B00000011,B10000000,B00000000,B00000000,
+  B00000000,B00000010,B01000000,B00000000,B00000000,
+  B00000000,B00000010,B01010110,B01100000,B00000000,
+  B00000000,B00000011,B10011000,B10010000,B00000000,
+  B00000000,B00000010,B00010000,B10010000,B00000000,
+  B00000000,B00000010,B00010000,B10010000,B00000000,
+  B00000000,B00000010,B00010000,B01100000,B00000000
 };
 
 //
