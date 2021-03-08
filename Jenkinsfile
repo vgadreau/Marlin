@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'platformio build'
+                sh '/home/vgadreau/.platformio/penv/bin/platformio build'
             }
         }
     }
