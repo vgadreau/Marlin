@@ -1,9 +1,26 @@
 pipeline {
-    agent any 
+
+    agent {
+        
+    }
+
+    options {
+        timestamps()
+    }
+
+
     stages {
-        stage('Build') { 
+        stage('build') {
             steps {
+                
             }
         }
     }
+
+    post {
+        always {
+          
+        }
+    }
+
 }
