@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh '/root/.platformio/penv/bin/pio build'
+                sh 'pio build'
             }
         }
     }
